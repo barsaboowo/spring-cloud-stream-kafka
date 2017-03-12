@@ -1,0 +1,11 @@
+@namespace("com.example.model")
+protocol ExampleProtocol{
+    record Request {
+      string correlationId;
+      string counterparty;
+    }
+    record Response {
+      string correlationId;
+      boolean isAllowed;
+    }
+}

@@ -1,0 +1,13 @@
+debug: false
+valid-counterparties: ANZ,HSBC,Standard Chartered,Citigroup,BOC
+spring:
+  cloud:
+    stream:
+      schemaRegistryClient:
+        endpoint: http://localhost:8081
+      bindings:
+        output:
+          contentType: application/*+avro
+          destination: output-channel
+        input:
+          destination: input-channel
