@@ -56,3 +56,7 @@ buildNumber.properties
 # Exclude maven wrapper
 !/.mvn/wrapper/maven-wrapper.jar
 
+
+.idea
+
+/spring-cloud-stream-kafka.iml
