@@ -24,7 +24,6 @@ import java.util.Map;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.TimeUnit;
 
-import static com.sun.xml.internal.ws.api.message.Packet.Status.Response;
 import static org.assertj.core.api.Fail.fail;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
